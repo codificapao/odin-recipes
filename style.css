@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* style for the recipe(pesto) page using type selector*/
+
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: "MedievalSharp", cursive;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p,
+li {
+    font-size: 18px;
+}
+
+h1, 
+h2 {
+    color: #00bebe;
+}
+
+h3,
+li::marker {
+    color: #ff5900;
+}
+
+/* style for the recipe(pancake) page using class and ID selector*/
+
+/* #title-page {
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: "MedievalSharp", cursive;
+}
+
+#title-page, 
+.lemon-pancake {
+    color: #beaa43;
+    background-color: #e2e2e2;
+} */
+
+/* Style for Main Site */
+
+#main-logo {
+    background-color: #ff5900;
+    color: #ffffff;
+}
+
+.food-courses a {
+    color: #00bebe;
+    font-size: 2rem;
+}
